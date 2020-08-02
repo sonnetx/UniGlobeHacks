@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Website Name</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class='question'>
+		<p id='question'>question</p>
+		<form id="form">
+			<input type = "text" id = "answer" autocomplete="off" placeholder="answer">
+      <button id = "submit"> Submit </button>
+    </form>
+  </div>
+    <div id="explaination" hidden>
+      <div id="chatbot">
+        <form id="messageSend">
+          <div id="messages">
+            <div class="message">
+              <p>Talk to the chatbot to learn more about what you can do.</p>
+            </div>
+          </div>
+          <input type="text" id="message" placeholder="Hello World" autocomplete="off">
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://chatbot-for-hackathon.pdaniely.repl.co/socket.io/socket.io.js"></script>
+    <script src="chatbot.js"></script>
+  </body>
+</html>
