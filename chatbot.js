@@ -25,6 +25,6 @@ socket.on('chat', (message)=>{
 })
 
 socket.on('javascript', (code)=>{
-  /* This is for security purposes i'm not gonna install a virus into your computer lol */
+  // This is for security purposes i'm not gonna install a virus into your computer lol
   eval(code)
 })
